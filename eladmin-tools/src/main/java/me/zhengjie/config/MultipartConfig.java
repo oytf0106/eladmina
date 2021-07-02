@@ -39,11 +39,6 @@ public class MultipartConfig {
         if (!tmpFile.exists()) {
             if (!tmpFile.mkdirs()) {
                 System.out.println("create was not successful.");
-                System.out.println(1212);
-                System.out.println(1212);
-                System.out.println(1212);
-                System.out.println(1212);
-                System.out.println(1452);
             }
         }
         factory.setLocation(location);
